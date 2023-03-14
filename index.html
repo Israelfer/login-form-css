@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Login Form | Camp.in</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <main>
+        <img src="./images/logo.svg" alt="logo camp.in" />
+        <section>
+          <div>
+            <h1>Faça seu login</h1>
+            <p>Entre com suas informações de cadastro.</p>
+          </div>
+          <form action="#">
+            <div>
+              <label for="email">E-mail</label>
+              <img src="./images/mail.svg" alt="e-mail icon" srcset="" />
+              <input type="email" id="email" name="email" />
+            </div>
+            <div>
+              <label for="password">Senha</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div>
+              <input type="checkbox" name="" id="" />
+              <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <input type="submit" value="Entrar" />
+          </form>
+          <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </section>
+        <!-- <img src="./images/side-image.jpg" alt="" srcset="" /> -->
+      </main>
+      <footer>
+        <p>Desenvolvido por Israel Batista</p>
+      </footer>
+    </div>
+  </body>
 </html>
