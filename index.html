@@ -15,37 +15,67 @@
   </head>
   <body>
     <div id="container">
-      <main>
+      <section>
         <img src="./images/logo.svg" alt="logo camp.in" />
-        <section class="form-background">
-          <div>
-            <h2>Faça seu login</h2>
-            <p>Entre com suas informações de cadastro.</p>
-          </div>
-          <form action="#">
+        <main>
+          <section class="formBackground">
             <div>
-              <label for="email">E-mail</label>
-              <img src="./images/mail.svg" alt="e-mail icon" srcset="" />
-              <input type="email" id="email" name="email" />
-            </div>
-            <div>
-              <label for="password">Senha</label>
-              <input type="password" name="password" id="password" />
-            </div>
-            <div>
-              <input type="checkbox" name="" id="" />
-              <a href="#">Esqueci minha senha</a>
+              <span class="heading">
+                <img src="./images/log-in.svg" alt="" srcset="" />
+                <h2>Faça seu login</h2>
+              </span>
+              <p>Entre com suas informações de cadastro.</p>
             </div>
 
-            <input type="submit" value="Entrar" />
-          </form>
-          <p>Não tem uma conta? <a href="#">Registre-se</a></p>
-        </section>
-        <!-- <img src="./images/side-image.jpg" alt="" srcset="" /> -->
-      </main>
-      <footer>
-        <p>Desenvolvido por Israel Batista</p>
-      </footer>
+            <form action="#">
+              <div>
+                <label for="email">E-mail</label>
+                <div class="inputContainer">
+                  <img src="./images/mail.svg" alt="e-mail icon" srcset="" />
+                  <input
+                    class="inputField"
+                    type="email"
+                    placeholder="Digite seu e-mail"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="password">Senha</label>
+                <div>
+                  <img src="./images/mail.svg" alt="e-mail icon" srcset="" />
+                  <input
+                    type="password"
+                    placeholder="Digite sua senha"
+                    name="password"
+                    id="password"
+                  />
+                  <img src="./images/mail.svg" alt="e-mail icon" srcset="" />
+                </div>
+              </div>
+
+              <div class="checkboxContainer">
+                <div>
+                  <input type="checkbox" name="checkbox" id="checkbox" />
+                  <label for="checkbox">Lembre-me</label>
+                </div>
+                <a href="#">Esqueci minha senha</a>
+              </div>
+
+              <input type="submit" class="btnSubmit" value="Entrar" />
+            </form>
+
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+          </section>
+        </main>
+
+        <footer>
+          <p>Desenvolvido por Israel Batista</p>
+        </footer>
+      </section>
+      <div class="bigImage"></div>
     </div>
   </body>
 </html>
